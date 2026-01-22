@@ -1,4 +1,4 @@
--- Bank Marketing Analysis using SQL
+    -- Bank Marketing Data Cleaning using SQL
 
 	-- ===================================================================================================================================================================
     -- 1. first thing I did is create a copy table. This is the one I will work in and clean the data. I want a table with the raw data in case something happens
@@ -21,7 +21,6 @@
 	SELECT DISTINCT job AS unique_jobs FROM bank_marketing_copy ORDER BY job;
 	SELECT DISTINCT marital AS unique_marital_statuses FROM bank_marketing_copy ORDER BY marital;
 	SELECT DISTINCT education AS unique_education_levels FROM bank_marketing_copy ORDER BY education;
-	SELECT DISTINCT loan AS unique_loan FROM bank_marketing_copy ORDER BY loan;
 	SELECT DISTINCT contact AS unique_contact_types FROM bank_marketing_copy ORDER BY contact;
 -- There are some unknown and I will leave them as a category
     
@@ -45,13 +44,13 @@
 	  SUM(previous IS NULL) AS null_previous,
 
 	  -- Text columns (handle blanks)
-	  SUM(job IS NULL OR job = '') AS invalid_job,
-	  SUM(marital IS NULL OR marital = '') AS invalid_marital,
-	  SUM(education IS NULL OR education = '') AS invalid_education,
-	  SUM(housing IS NULL OR housing = '') AS invalid_housing,
-	  SUM(loan IS NULL OR loan = '') AS invalid_loan,
-	  SUM(contact IS NULL OR contact = '') AS invalid_contact,
-	  SUM(y IS NULL OR y = '') AS invalid_y
+	  SUM(job IS NULL OR job = '') AS null_job,
+	  SUM(marital IS NULL OR marital = '') AS null_marital,
+	  SUM(education IS NULL OR education = '') AS null_education,
+	  SUM(housing IS NULL OR housing = '') AS null_housing,
+	  SUM(loan IS NULL OR loan = '') AS null_loan,
+	  SUM(contact IS NULL OR contact = '') AS null_contact,
+	  SUM(y IS NULL OR y = '') AS null_y
 
 	FROM bank_marketing_copy;
 
