@@ -8,7 +8,7 @@ The project follows an end-to-end analytics workflow, including data cleaning an
 <img width="1379" height="729" alt="image" src="https://github.com/user-attachments/assets/735a5f4e-5196-4580-8810-9f60725298b0" />
 
 
-## 🗂️ Dataset
+## 🗂️ Dataset (From Kaggle)
 
 The dataset contains marketing campaign records with customer demographic, financial, and interaction information.
 
