@@ -47,13 +47,33 @@ Key fields include:
 
 - Prepared analysis-ready data and export for BI consumption
   
-### 2. Data analysis (MySQL)
+### 2. Data Analysis (sql)
 
-- Bank Marketing (Exploratory Data Analysis (EDA))
-  
-- Campaign Effectiveness Analysis
+   •	Bank Marketing (Exploratory Data Analysis (EDA)) 
+   
+   - Age Category Distribution
+   
+   - Subscription Rate
+   
+   - subscription rate by (education, job, marital status, age category and job, age category and campaign effect)
+    
+ •	Campaign Effectiveness Analysis Contact Method
+ 
+  - Best performing months
+ 
+  - impact of call duration
+ 
+  - Number of campaign contacts
+ 
+  - Previous campaign outcome
+   
+ •	Customer Financial Behaviour 
+ 
+  - Customers with personal loan and housing loan
+    
+  - Balance segmentation 
 
-- Customer Financial Behaviour
+  - Deposit outcome by balance
 
 ### 3. Data Modeling & DAX (Power BI)
 
