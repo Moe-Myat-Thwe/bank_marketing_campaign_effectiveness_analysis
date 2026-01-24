@@ -3,7 +3,7 @@
 
 This project analyzes a bank’s marketing campaign data to understand the key factors influencing customer subscription to term deposits. The objective is to transform raw campaign data into actionable insights that support better customer targeting, campaign optimization, and data-driven decision making.
 
-The project follows an end-to-end analytics workflow, including data cleaning and feature engineering using SQL (MySQL), data modeling and visualization in Power BI, and business reporting and presentation.
+The project follows an end-to-end analytics workflow, including data cleaning, feature engineering and analysis using SQL (MySQL), data modeling and visualization in Power BI, and business reporting and presentation.
 
 <img width="1379" height="729" alt="image" src="https://github.com/user-attachments/assets/735a5f4e-5196-4580-8810-9f60725298b0" />
 
@@ -26,7 +26,7 @@ Key fields include:
 
 ## 🛠️ Tools & Technologies
 
-- MySQL – Data cleaning, transformation, and feature engineering
+- MySQL – Data cleaning, transformation, feature engineering and analysis
 
 - Power BI – Data modeling, DAX measures, and interactive dashboard
 
@@ -46,8 +46,16 @@ Key fields include:
 - Created derived features such as age categories and salary groups
 
 - Prepared analysis-ready data and export for BI consumption
+  
+### 2. Data analysis (MySQL)
 
-### 2. Data Modeling & DAX (Power BI)
+- Bank Marketing (Exploratory Data Analysis (EDA))
+  
+- Campaign Effectiveness Analysis
+
+- Customer Financial Behaviour
+
+### 3. Data Modeling & DAX (Power BI)
 
 - Created key DAX measures including:
 
@@ -60,7 +68,7 @@ Key fields include:
   - Conversion Rate for Previously Contacted Customers
 
 
-### 3. Dashboard Development (Power BI)
+### 4. Dashboard Development (Power BI)
 
 - Designed an executive-style dashboard with:
 
@@ -74,7 +82,7 @@ Key fields include:
 
 - Added slicers for interactive exploration by customer and campaign attributes
 
-### 4. Reporting & Presentation
+### 5. Reporting & Presentation
 
 - Created a structured analytical report summarizing insights and recommendations
 
