@@ -1,11 +1,12 @@
-# 📊 Bank Marketing Campaign Analysis
+# 📊 Bank Marketing Campaign Effectiveness Analysis
+
 ## 📌 Overview
 
 This project analyzes a bank’s marketing campaign data to understand the key factors influencing customer subscription to term deposits. The objective is to transform raw campaign data into actionable insights that support better customer targeting, campaign optimization, and data-driven decision making.
 
 The project follows an end-to-end analytics workflow, including data cleaning, feature engineering and analysis using SQL (MySQL), data modeling and visualization in Power BI, and business reporting and presentation.
 
-<img width="1379" height="729" alt="image" src="https://github.com/user-attachments/assets/735a5f4e-5196-4580-8810-9f60725298b0" />
+<img width="1382" height="738" alt="image" src="https://github.com/user-attachments/assets/529678fa-e5f4-4b42-9752-5b5b6413698b" />
 
 
 ## 🗂️ Dataset (From Kaggle)
